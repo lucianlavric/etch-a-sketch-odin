@@ -43,8 +43,12 @@ function attachHoverListeners(){
             //detects when the cursor hovers over a div
             item.addEventListener("mouseover", ()=>{
                 //Changes the div to black
-                item.style.backgroundColor = "black";
+                item.style.backgroundColor = `rgba(${randomColor()}, ${randomColor()}, ${randomColor()}, 0.5)`;
             });
             
         });
     }
+
+function randomColor(){
+    return Math.floor(Math.random() * 255);
+}
