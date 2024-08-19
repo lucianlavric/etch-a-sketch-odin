@@ -17,10 +17,11 @@ body{
     flex: none;
     width: calc(30px * 16);
     height: calc(30px * 16);
+    border: 1px solid black;
 }
 
 .div{
-    border: 1px solid black;
+    
     height: 30px;
     width: 30px;
     box-sizing: border-box;
